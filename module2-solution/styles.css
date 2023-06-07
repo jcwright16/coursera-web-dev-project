@@ -1,0 +1,62 @@
+body {
+    font-family: Tahoma;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+}
+
+.row {
+    width: 100%;
+}
+
+p {
+    margin: 0.5em;
+    padding: 1.5em;
+    border: solid black 1px;
+    background-color: gray;
+    position: relative;
+}
+
+.section-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0em 1em;
+    border: solid black 1px;
+    font-size: 125%;
+}
+
+#chicken .section-label {
+    background-color: pink;
+}
+
+#beef .section-label{
+    background-color: tomato;
+}
+
+#sushi .section-label{
+    background-color: yellow;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tablet-1, .tablet-2 {
+        box-sizing: border-box;
+        float: left;
+    }
+    .tablet-1 {
+        width: 100%;
+    }
+    .tablet-2 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .desktop {
+        box-sizing: border-box;
+        float: left;
+        width: 33.33%;
+    }
+}
