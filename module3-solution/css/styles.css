@@ -1,0 +1,9 @@
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.navbar-brand h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
