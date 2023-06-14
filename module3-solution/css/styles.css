@@ -7,3 +7,26 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+
+p {
+    height: 700px;
+    background-color: gray;
+    border: solid black 1px;
+}
+
+h3 {
+    border: solid black 1px;
+    margin-bottom: 0;
+}
+
+#chicken h3 {
+    background-color: pink;
+}
+
+#beef h3 {
+    background-color: tomato;
+}
+
+#sushi h3 {
+    background-color: yellow;
+}
