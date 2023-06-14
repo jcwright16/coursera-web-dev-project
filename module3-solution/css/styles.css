@@ -14,10 +14,22 @@
     color: black;
 }
 
+#nav-list a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
 p {
     height: 700px;
     background-color: gray;
     border: solid black 1px;
+    position: relative;
+}
+
+p a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 h3 {
