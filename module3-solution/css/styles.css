@@ -8,6 +8,12 @@
     margin-bottom: 0;
 }
 
+#nav-list a {
+    text-align: center;
+    background-color: gray;
+    color: black;
+}
+
 p {
     height: 700px;
     background-color: gray;
